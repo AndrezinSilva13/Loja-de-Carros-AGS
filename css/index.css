@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html a {
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+    margin-top: 2vh;
+    font-size: 2.2vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle, rgb(109, 108, 108) 24%, rgb(37, 37, 37));
+    margin: auto;
+    min-width: 0px;
+    max-width: 3000px;
+}
+
+@keyframes RGB{
+    0%{
+        color: red;
+    }
+
+    50%{
+        color: green;
+    }
+
+    100%{
+        color: blue;
+    }
+}
+
+body header h1.title {
+    text-align: center;
+    animation-name: RGB;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 300%;
+    margin-top: 10px;
+}
+
+body header form button {
+    font-size: 1em;
+    text-decoration: none;
+    background-color: rgb(70, 81, 243);
+    color: aliceblue;
+    border: rgb(70, 81, 243) 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+body header form button:hover {
+
+    background-color: transparent;
+    color: rgb(70, 81, 243);
+    border: rgb(70, 81, 243) 1px solid;
+    padding: 5px 10px;
+}
+
+body main h2.title {
+    font-size: 200%;
+    color: blue;
+    margin-top: 30px;
+    text-align: center;
+}
+
+body main table {
+    margin-top: 30px;
+    border: 3px solid;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+    text-align: center;
+}
+
+body main table th {
+    border: 1px solid;
+    border-radius: 5px;
+    color: red;
+    font-size: 100%;
+    text-align: center;
+}
+
+body main table td {
+    border: 1px solid;
+    border-radius: 5px;
+    color: blue;
+    font-size: 130%;
+    text-align: center;
+    vertical-align: center;
+}
+
+body main table td img {
+    width: 90%;
+    height: 70%;
+}
+
+body main form button {
+    font-size: 1.8vh;
+    text-decoration: none;
+    background-color: rgb(70, 81, 243);
+    color: aliceblue;
+    border: rgb(70, 81, 243) 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body main form button:hover {
+
+    background-color: transparent;
+    color: rgb(70, 81, 243);
+    border: rgb(70, 81, 243) 1px solid;
+    padding: 5px 10px;
+}
+
+body main p.nenhum {
+    margin-top: 100px;
+    text-align: center;
+    color: red;
+    font-size: 200%;
+}
+
+body footer p.credits {
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+body footer p.name {
+    color: rgb(255, 0, 170);
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+body footer p.name:hover {
+    zoom: 150%;
+}
+
+body footer p.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+body footer a img.instaImage {
+    width: 45px;
+    height: 45px;
+}
+
+body footer a img.faceImage {
+    width: 45px;
+    height: 45px;
+}
+
+body footer a img.twiterImage {
+    width: 45px;
+    height: 45px;
+}

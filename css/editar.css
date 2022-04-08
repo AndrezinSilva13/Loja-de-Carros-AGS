@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html a {
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+    margin-top: 2vh;
+    font-size: 2.2vh;
+}   
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle, rgb(109, 108, 108) 24%, rgb(37, 37, 37));
+    margin: auto;
+    min-width: 0px;
+    max-width: 3000px;
+}
+
+@keyframes RGB{
+    0%{
+        color: red;
+    }
+
+    50%{
+        color: green;
+    }
+
+    100%{
+        color: blue;
+    }
+}
+
+body h1#title{
+    text-align: center;
+    font-size: 4.5vh;
+    animation-name: RGB;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+body input::placeholder{
+    color: red;
+    text-align: center;
+}
+
+body label#imagemName{
+    font-size: 4vh;
+    color: red;
+    margin-left: 3vh;
+}
+
+body input#imagem{
+    font-size: 2.3vh;
+    color: red;
+    text-align: center;
+    background-color: rgb(99, 192, 246);
+    margin-bottom: 1vh;
+}
+
+body label#nomeName{
+    font-size: 4vh;
+    color: red;
+    margin-left: 3vh;
+}
+
+body input#nome{
+    font-size: 2.3vh;
+    color: red;
+    text-align: center;
+    background-color: rgb(99, 192, 246);
+    margin-bottom: 1vh;
+}
+
+body label#marcaName{
+    font-size: 4vh;
+    color: red;
+    margin-left: 3vh;
+}
+
+body input#marca{
+    font-size: 2.3vh;
+    color: red;
+    text-align: center;
+    background-color: rgb(99, 192, 246);
+    margin-bottom: 1vh;
+}
+
+body label#modeloName{
+    font-size: 4vh;
+    color: red;
+    margin-left: 3vh;
+}
+
+body input#modelo{
+    font-size: 2.3vh;
+    color: red;
+    text-align: center;
+    background-color: rgb(99, 192, 246);
+    margin-bottom: 1vh;
+}
+
+body label#anoName{
+    font-size: 4vh;
+    color: red;
+    margin-left: 3vh;
+}
+
+body input#ano{
+    font-size: 2.3vh;
+    color: red;
+    text-align: center;
+    background-color: rgb(99, 192, 246);
+    margin-bottom: 1vh;
+}
+
+body label#precoName{
+    font-size: 4vh;
+    color: red;
+    margin-left: 3vh;
+}
+
+body input#preco{
+    font-size: 2.3vh;
+    color: red;
+    text-align: center;
+    background-color: rgb(99, 192, 246);
+    margin-bottom: 5vh;
+}
+
+body button.bodyb {
+    font-size: 3vh;
+    text-decoration: none;
+    background-color: rgb(70, 81, 243);
+    color: aliceblue;
+    border: rgb(70, 81, 243) 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10vh;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+body button:hover {
+
+    background-color: transparent;
+    color: rgb(70, 81, 243);
+    border: rgb(70, 81, 243) 1px solid;
+    padding: 5px 10px;
+}
+
+body p.credits {
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+body p.name {
+    color: rgb(255, 0, 170);
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+body p.name:hover {
+    zoom: 150%;
+}
+
+body p.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+body a img.instaImage {
+    width: 45px;
+    height: 45px;
+}
+
+body a img.faceImage {
+    width: 45px;
+    height: 45px;
+}
+
+body a img.twiterImage {
+    width: 45px;
+    height: 45px;
+}
